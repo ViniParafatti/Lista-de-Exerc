@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Verdadeiro ou Falso</title>
+</head>
+<body>
+    <h1>Quiz de Conhecimentos Gerais</h1>
+
+    <form id="quizForm">
+        <h2>Questão 1:</h2>
+        <p>O Brasil é um país da América do Sul.</p>
+        <input type="radio" id="q1_v" name="questao1" value="verdadeiro">
+        <label for="q1_v">Verdadeiro</label><br>
+        <input type="radio" id="q1_f" name="questao1" value="falso">
+        <label for="q1_f">Falso</label><br><br>
+
+        <h2>Questão 2:</h2>
+        <p>A capital do Japão é Pequim.</p>
+        <input type="radio" id="q2_v" name="questao2" value="verdadeiro">
+        <label for="q2_v">Verdadeiro</label><br>
+        <input type="radio" id="q2_f" name="questao2" value="falso">
+        <label for="q2_f">Falso</label><br><br>
+
+        <button type="submit">Enviar Respostas</button>
+    </form>
+
+    <div id="resultadoQuiz"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
